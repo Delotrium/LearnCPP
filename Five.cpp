@@ -13,7 +13,7 @@ void EscapeSequences()
 	cout << "Before_Three\bAfter_Three" << endl; //Backspaces and deletes the character before \b
 	cout << "Before_Four\vAfter_Four" << endl; //Adds a vertical tab at the \v (note that some prompts dont support this)
 	cout << "Before_Five\aAfter_Five" << endl; //The \a plays a sound on execution
-	cout << "Before_Six\0After_Six" << endl; //The 0 Stops the remaining string being placed in memory
+	cout << "Before_Six\0After_Six" << endl; //The \0 Stops the remaining string being placed in memory
 	cout << "Before_Seven\"After_Seven" << endl; //Adds a double quote on the \"
 	cout << "Before_Eight\\After_Eight" << endl; //Adds a backslash at the \\ escape sequence
 }
