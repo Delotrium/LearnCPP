@@ -31,6 +31,6 @@ Booleans in Detail.
 ## Communication:
 Need help with anything? See an error or bug in the code? Just want to contact me? Well just shoot me an email and I will be sure to get back in touch with you!
 
-General Email (This is the primary email to contact me): delotrium@outlook.com
+General Email (This is the **__primary__** email to contact me): delotrium@outlook.com
 
-Business Email (If the previous email did not work use this one, which might not work): s07691@sheldoncollege.com
+Business Email (If the previous email did not work, use this one, which might not work): s07691@sheldoncollege.com
