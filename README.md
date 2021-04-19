@@ -19,10 +19,10 @@ This program introduces the idea of void functions. The program is similar to th
 **Code/Learn_4:**
 This program lists all the basic datatypes and explains the uses of them. Furthermore, the program explains in detail Integers and characters. The code explains all the different types of integers and characters, stating the amount of bytes each type of datatype occupies. Also, the Climits library is used to show the minimum and maximum value a datatype can occupy. The program also elaborates on ASCII, and how characters can either store literal numbers, or an Letter using the ASCII equivalent.
 
-###Code/Learn_5:
+###### Code/Learn_5:
 This is a simple program listing the definitions and uses of various escape sequences that are commonly used in strings.
 
-###Code/Learn_6
+###### Code/Learn_6
 Booleans in Detail.
 
 <This will be updated about every week, so some newer files may not be located in this README file. Descriptions can still be found on the actual files though>
