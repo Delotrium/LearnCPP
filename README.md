@@ -25,12 +25,12 @@ This is a simple program listing the definitions and uses of various escape sequ
 ###### Code/Learn_6:
 Booleans in Detail.
 
-**__<This will be updated about every week, so some newer files may not be located in this README file. Descriptions can still be found on the actual files though>__**
+***<This will be updated about every week, so some newer files may not be located in this README file. Descriptions can still be found on the actual files though>***
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Communication:
 Need help with anything? See an error or bug in the code? Just want to contact me? Well just shoot me an email and I will be sure to get back in touch with you!
 
-General Email (This is the **__primary__** email to contact me): delotrium@outlook.com
+General Email (This is the **_primary_** email to contact me): delotrium@outlook.com
 
 Business Email (If the previous email did not work, use this one, which might not work): s07691@sheldoncollege.com
