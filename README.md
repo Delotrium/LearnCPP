@@ -22,10 +22,10 @@ This program lists all the basic datatypes and explains the uses of them. Furthe
 ###### Code/Learn_5:
 This is a simple program listing the definitions and uses of various escape sequences that are commonly used in strings.
 
-###### Code/Learn_6
+###### Code/Learn_6:
 Booleans in Detail.
 
-<This will be updated about every week, so some newer files may not be located in this README file. Descriptions can still be found on the actual files though>
+**__<This will be updated about every week, so some newer files may not be located in this README file. Descriptions can still be found on the actual files though>__**
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Communication:
