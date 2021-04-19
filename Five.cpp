@@ -4,7 +4,6 @@
 
 void EscapeSequences()
 {
-
 	using std::cout; //Instead of writing std::cout each time we want to print, we just need to type cout
 	using std::endl;
 	cout << "Before After" << endl; //Normal Space
