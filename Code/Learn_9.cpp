@@ -1,3 +1,5 @@
+//All math functions found at: https://en.cppreference.com/w/cpp/numeric/math
+
 #include <iostream>
 #include <cmath>
 
