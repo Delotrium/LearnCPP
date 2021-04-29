@@ -26,6 +26,9 @@ This is a simple program listing the definitions and uses of various escape sequ
 Booleans in Detail.
 
 ***<This will be updated about every week, so some newer files may not be located in this README file. Descriptions can still be found on the actual files though>***
+## Documentation:
+
+Contains various documentations for the software in the repository, including security notice.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Communication:
