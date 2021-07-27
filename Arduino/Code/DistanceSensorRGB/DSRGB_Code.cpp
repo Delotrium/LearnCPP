@@ -35,22 +35,26 @@ void Sensor() {
   duration = pulseIn(echoPin, HIGH); //Recieve duration of pulse
   distance = duration * 0.034 / 2; // Speed of sound wave divided by 2 (go and back)
 
-  if (distance > 25 && distance < 100) {
-  	digitalWrite(GreenLED, HIGH);
+  while (distance > 9 && distance < 20) { //You could use an IF statement as well
     LEDReset(13, 12);
+    digitalWrite(GreenLED, HIGH);
+    break;
   }
-  if (distance > 99 && distance < 200) {
-    digitalWrite(BlueLED, HIGH);
-    LEDReset(13, 11);
+  while (distance > 20 && distance < 30) { //While between 20cm and 30cm 
+    LEDReset(13, 11); //Make sures that the other values are nill
+    digitalWrite(BlueLED, HIGH); // Shine BlueLED
+    break; //Break
   }
-  if (distance > 199 && distance < 300) {
-   	digitalWrite(RedLED, HIGH);
+  while (distance > 30 && distance < 40) {
     LEDReset(12, 11);
+    digitalWrite(RedLED, HIGH);
+    break;
   }
-  if (distance > 299) {
+  while (distance > 40) {
     digitalWrite(RedLED, HIGH);
     digitalWrite(BlueLED, HIGH);
     digitalWrite(GreenLED, HIGH);
+    break;
   }
 }
 
