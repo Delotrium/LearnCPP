@@ -34,6 +34,8 @@ decode_results results;
 void IRsensor();
 void DisplayZero(int time);
 void Display(int pins[8], int time);
+void RunSegmentDisplay();
+void DisplayOFF();
 
 void setup() {
   Serial.begin(9600);
@@ -58,19 +60,46 @@ void loop(){
 void IRsensor() {
    if (irrecv.decode(&results)) {
      Serial.println(results.value, DEC);
-     if (results.value == 16580863){
-       digitalWrite(13,HIGH); 
-     };
-     if (results.value == 16593103) {
-       Display(ArrZero, 1000);
-     };
-    irrecv.resume(); // Receive thxt value
+     RunSegmentDisplay();
+     irrecv.resume(); // Receive thxt value
   }
   delay(100);
 }
 
+void DisplayOFF() {
+  digitalWrite(1, LOW);
+  digitalWrite(2, LOW);
+  digitalWrite(3, LOW);
+  digitalWrite(4, LOW);
+  digitalWrite(5, LOW);
+  digitalWrite(6, LOW);
+  digitalWrite(7, LOW);
+  digitalWrite(8, LOW);
+}
+
 void Display(int pins[8], int time) {
-  for(int i = 0; i < 8; ++i) {
+  DisplayOFF();
+  for(int i = 0; i <= 8; ++i) {
     digitalWrite(pins[i], HIGH);
   }
+  delay(time);
+  DisplayOFF();
+}
+
+void RunSegmentDisplay() {
+  if (results.value == 16580863){
+     digitalWrite(13,HIGH); 
+  };
+  if (results.value == 16593103) {
+     Display(ArrZero, 1000);
+  };
+  if (results.value == 16582903) {
+     Display(ArrOne, 1000);
+  };
+  if (results.value == 16615543) {
+     Display(ArrTwo, 1000);
+  };
+  if (results.value == 16599223) {
+     Display(ArrThree, 1000);
+  };
 }
