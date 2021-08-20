@@ -5,7 +5,7 @@ This basic code runs through all 10 numbers (0-9) on a seven segment display. Mu
 3 displays for 3 digit numbers, and so on). There a various uses for this code, including number representation, or distance moniters and so on.
 
 ## Board and Circuit Setup
-![Circuit GIF](https://s5.gifyu.com/images/ezgif.com-gif-maker468b07f89e063629.md.gif)
+![Circuit Setup](https://ibb.co/YZ4YtRF)
 #### Seven Segment Display Connections
 * Segment G &#8594; Pin 10
 * Segment F &#8594; Pin 9
