@@ -22,10 +22,7 @@ unsigned long long line_amount() {
 		file.close();
 		return count;
 	};
-	
 }
-
-
 
 void add() {
 	fstream fout;
@@ -50,7 +47,6 @@ void add() {
 
     // Insert the data to file
     fout << id << ", " << name << ", " << lname << ", " << bal << ", " << credit_score << ", "  << dob << "\n";
-
 }
 
 void read_record() {
