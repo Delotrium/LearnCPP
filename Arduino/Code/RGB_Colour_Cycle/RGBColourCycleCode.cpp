@@ -9,9 +9,7 @@ int t = 1; /* "t" (time) 1000 milliseconds, feel free to change it */
 void setup() {/* no setup */}
 
 void loop() {
-
   for (/* no initialization */; r>=0, b<255; b++, r--) /*red -> blue*/
-  
   {
     analogWrite(red, r);
     analogWrite(blue, b);
@@ -19,7 +17,6 @@ void loop() {
   }
   
   for (/* no initialization */; b>=0, g<255; g++, b--) /*blue -> green*/
-  
   {
     analogWrite(blue, b);
     analogWrite(green, g);
