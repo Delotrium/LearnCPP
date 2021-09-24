@@ -11,6 +11,7 @@ private:
 			return false;
 		};
 	}
+
 public:
 	void input() {
 		using std::cin;
