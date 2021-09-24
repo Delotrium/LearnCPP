@@ -6,6 +6,7 @@ using std::string;
 class word_count {
 private:
 	bool ques_mode = 0;
+
 public:
 	int Count_Words(string note) {
 		int count = (std::count(note.begin(), note.end(), ' ')) + 1;
@@ -46,5 +47,4 @@ int main() {
 	word_count word_count;
 	word_count.run();
 	return 0;
-
 }
