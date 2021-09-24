@@ -46,7 +46,6 @@ public:
 
 int main()
 {
-
     Solution solution;
     solution.PalindromeInpOut();
     return 0;
