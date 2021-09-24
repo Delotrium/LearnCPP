@@ -24,6 +24,5 @@ int main() //The main function
 	std::cout << pow(10,2) << std::endl; //Print the pow function with arguments of 10 and 2, this function raises 10 to the second power.
 	pow_input();
 	return 0; //Return code 0
-
 }
 
