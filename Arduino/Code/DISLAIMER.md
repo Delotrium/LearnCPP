@@ -1,0 +1,1 @@
+## Current Files are Being moved to my [Arduino Repository](https://github.com/Delotrium/Arduino "My Arduino Repo") and the current ones will be deleted soon. This is to organise the code better and be prepared and capable to manage future projects I have planned 😉 
