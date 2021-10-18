@@ -37,7 +37,3 @@ Need help with anything? See an error or bug in the code? Just want to contact m
 General Email (This is the **_primary_** email to contact me): delotrium@outlook.com
 
 Business Email (If the previous email did not work, use this one, which might not work): s07691@sheldoncollege.com
-
-General #2 jacktntrichardsspamemail@gmail.com
-
-Business email #2 s10495@sheldoncollege.com
