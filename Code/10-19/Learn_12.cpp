@@ -13,5 +13,6 @@ void operators() {
 
 
 int main() {
-
+	operators();
+	return 0;
 }
